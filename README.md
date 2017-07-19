@@ -4,3 +4,6 @@ https://cpbook.net/
 
 I just added main() function for handling input and some necessary code to be run over Visual Studio.
 Plz, visit https://uva.onlinejudge.org/ for testing code.
+
+# My blog for algorithm/problem solving
+http://gooddaytocode.blogspot.kr
