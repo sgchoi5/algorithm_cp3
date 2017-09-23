@@ -50,7 +50,7 @@ int shop(int money, int g) {
 		return -1000000000;    // 둘 이상의 기저 사례를 처리할 때는 순서가 중요하다
 	if (g == C)
 		return M - money;      // 이 행에서 money 는 음수일 수 없다
-	int &ans = memo[money][g]; // 메모리 주솔르 저장한다
+	int &ans = memo[money][g]; // 메모리 주 저장한다
 	if (ans != -1)
 		return ans;
 	for (int model = 1; model <= price[g][0]; model++)
